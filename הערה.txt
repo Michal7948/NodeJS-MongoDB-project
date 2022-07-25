@@ -1,0 +1,32 @@
+מצורף הPostman 
+וכן מצורץ צילום מסך של הDB 
+כל הפונקציות עובדות ב"ה  
+
+
+זה יצר את הDB products
+
+use StoreDB
+
+db.products.insert({ _id:"123456", name: "Makeup", price: 80, img: "p11"})
+db.products.insert({ _id:"78554", name: "Redness", price: 45, img: "p10" })
+db.products.insert({ _id:"546110", name: "Concealer", price: 30, img: "p3" })
+db.products.insert({ _id:"789751", name: "Eyeliner", price: 58, img: "p6" })
+db.products.insert({ _id:"456431", name: "mascara", price: 47, img: "p9" })
+db.products.insert({ _id: "543253", name: "Eye Pencil", price: 14, img: "p8" })
+db.products.insert({ _id: "895561", name: "Powder", price: 42, img: "p2" })
+db.products.insert({ _id: "413156", name: "Eyeshadows", price: 75, img: "p4" })
+db.products.insert({ _id: "451225", name: "Flush", price: 56, img: "p7" })
+db.products.insert({ _id: "561032", name: "Shimmer", price: 61, img: "p5" })
+
+וזה יצר את הDB users
+
+use StoreDB
+db.users.insert({ _id:"212863005", name: "Michal", password:"12345" })
+db.users.insert({ _id:"212478541", name: "Chana", password:"12345"  })
+db.users.insert({ _id:"314587202", name: "Sara", password:"12345"  })
+db.users.insert({ _id:"040078552", name: "Margalit", password:"12345"  })
+db.users.insert({ _id:"034476325", name: "Efrat", password:"12345"  })
+db.users.insert({ _id:"209077726", name: "Ester", password:"12345"  })
+db.users.insert({ _id:"351478521", name: "Lea", password:"12345"  })
+db.users.insert({ _id:"147214524", name: "Rivka", password:"12345"  })
+db.users.insert({ _id:"312045174", name: "Ayala", password:"12345" })
